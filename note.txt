@@ -1,0 +1,2 @@
+C++ setup:
+code runner > setting > edit json > "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && timeout 5s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')",
